@@ -1,0 +1,50 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta id="meta" name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link href="style.css" rel="stylesheet" type="text/css" />
+		<script src="js/eventlist.js"></script>
+		<script src="js/eventscript.js"></script>
+	</head>
+
+	<body onload="load()">
+		<div id="wrapper" >
+			<header>
+				<a href="http://aethelmearc.org"><img src="images/heirsgif.gif" alt="AEthelmearc" /></a>
+				<h1>Sven and Siobhan<br/>King and Queen of AEthelmearc</h1>
+			</header>
+			<nav>
+				<div id="linklist">
+					<a href="/">Home</a>
+					<a href="preferences.html">Preferences</a>
+					<a href="staff.html">Staff</a>
+					<a href="eventlist.html">Royal Progress</a>
+					<a href="contact.html">Contact</a>
+				</div>
+				<select onchange="location = this.options[this.selectedIndex].value;">
+					<option value="" selected="selected">Select</option>
+					<option value="index.html">Home</option>
+					<option value="preferences.html">Preferences</option>
+					<option value="staff.html">Staff</option>
+					<option value="eventlist.html">Royal Progress</option>
+					<option value="contact.html">Contact</option>
+				</select>
+			</nav>
+			<header>
+				<h2>Royal Progress</h2>
+			</header>
+			<article>
+				<form>
+					<input type="checkbox" id="chkShowOldEvents" value="showOldEvents" onchange="Javascript:loadeventtable()" />
+					<label for="chkShowOldEvents">Show old events</label>
+					<input type="checkbox" id="chkShowEmptyWeekends" value="showEmptyWeekends" onchange="Javascript:loadeventtable()" />
+					<label for="chkShowEmptyWeekends">Show empty weekends</label>
+				</form>
+				<div id="eventtable">
+				</div>
+			</article>
+			<div id="footer"><a href="disclaimer.html">Disclaimer</a></div>
+		</div>
+	</body>
+</html>
