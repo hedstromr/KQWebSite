@@ -49,8 +49,8 @@
 	eventlist[i++] = new Array("08/04/2018", "Pennsic", "http://www.pennsicwar.org");
 	eventlist[i++] = new Array("08/11/2018", "Pennsic", "http://www.pennsicwar.org");
 	eventlist[i++] = new Array("08/18/2018", "", "");
-	eventlist[i++] = new Array("08/25/2018", "", "");
-	eventlist[i++] = new Array("09/01/2018", "", "");
+	eventlist[i++] = new Array("08/25/2018", "7 Pearls under the Grenewode", "http://aethelmearc.org/event/7-pearls/");
+	eventlist[i++] = new Array("09/01/2018", "Shoot in the Wildwood", "http://aethelmearc.org/event/shoot-in-the-wildwood-2/");
 	eventlist[i++] = new Array("09/08/2018", "", "");
 	eventlist[i++] = new Array("09/15/2018", "Fall Coronation preferred date", "");
 	eventlist[i++] = new Array("09/22/2018", "", "");
